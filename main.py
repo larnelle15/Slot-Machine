@@ -73,7 +73,7 @@ def print_slot_machine(columns):
 
         print()
 
-
+#creating a function for initial deposit amount
 def deposit():
     while True:
         amount = input("What would you like to deposit? $")
@@ -88,7 +88,7 @@ def deposit():
 
     return amount
 
-
+#This function is for the specifying the lines that the better wants to bet on
 def get_number_of_lines():
     while True:
         lines = input(
@@ -104,7 +104,7 @@ def get_number_of_lines():
 
     return lines
 
-
+#This function is where the bet is created 
 def get_bet():
     while True:
         amount = input("What would you like to bet on each line? $")
